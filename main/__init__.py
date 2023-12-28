@@ -7,12 +7,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = 23147177
-API_HASH = "6c1b34bf3c56b9957aab7da8a0dd3482"
-BOT_TOKEN = "6488628610:AAFzXVYuoOalTxDxUbaawSggSKgF66Z9EYU"
-SESSION = "BQAtKoH9Uf2vsGz-7SQQubDZbsbvRrtlQHEG6PDOP7qIlpzwDjn77MPVoPNFQ1h8l9fP6qR6sAKpXgsfLzUAdy8XLCGM-psc-y6JKE73OabYl0IQyjLtDlALlK_YEAgAPSXU0YQUswgUYbLdMlr68KzhQ2M9OhTzxBZUQ5WmPHJIYYscGYbMqhp1AZzGMrdeYdI2tprEI23ttrgPn9aDSoZHNiBdzmmM0zwc2ip9Q0EPYDYYPfEHUa2E-pSId9GyGZ1aon_XQwgtWXp8fSIBtDlNXbMioWA-wcNK6B2wY9IMwVxS_Bj7KruKrdG_Y-UFhdeWJx5VrkWYfjXI3DA65se4AAAAAY1EGMoA"
-FORCESUB = "Botlgod"
-AUTH = 6665017546
+API_ID = 
+API_HASH = ""
+BOT_TOKEN = ""
+SESSION = ""
+FORCESUB = ""
+AUTH = 
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
